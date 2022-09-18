@@ -1,37 +1,33 @@
-// const options = {
-// 	method: 'GET',
-// 	headers: {
-// 		'X-RapidAPI-Key': 'e582372e1amsh61b00d4f0c7496fp13ecf4jsn15d9fbef3010',
-// 		'X-RapidAPI-Host': 'mlb-data.p.rapidapi.com'
-// 	}
-// };
 
-// fetch("https://mlb-data.p.rapidapi.com/json/named.player_info.bam?sport_code='mlb'&player_id='493316'", options)
-// 	.then(response => response.json())
-// 	.then(response => console.log(response))
-// 	.catch(err => console.error(err));
 
-//   function displayPlayerData(data) {
-//     const player = data.drinks[0];
-//     const playerDiv = document.getElementById("Player"); 
-//   }   
+function myButton(){
 
-//   const playerName = player.id;
-//   const heading = document.createElement("h1");
-//   heading.innerHTML = playerName;
+const options = {
+		method: 'GET',
+		headers: {
+			'X-RapidAPI-Key': '732a40fa19msh7836d44be03a72fp1458f8jsnb4cc84dfe36b',
+			'X-RapidAPI-Host': 'baseballapi.p.rapidapi.com'
+		}
+	};
+	
+	fetch('https://baseballapi.p.rapidapi.com/api/baseball/match/9864379', options)
+		.then(response => response.json())
+		.then(response => console.log(response))
+		.catch(err => console.error(err));
 
-  
 
-  fetch("https://mlb-data.p.rapidapi.com/json/named.player_info.bam?sport_code='mlb'&player_id='493316'")
-  .then((response) => {
-    if (response.ok) {
-      return response.json();
-    } else {
-      throw new Error("NETWORK RESPONSE ERROR");
-    }
-  })
-  .then(data => {
-    console.log(data);
-    displayPlayerData(data)
-  })
-  .catch((error) => console.error("FETCH ERROR:", error));
+		const options1 = {
+			method: 'GET',
+			headers: {
+				'X-RapidAPI-Key': 'e582372e1amsh61b00d4f0c7496fp13ecf4jsn15d9fbef3010',
+				'X-RapidAPI-Host': 'baseballapi.p.rapidapi.com'
+			}
+		};
+		
+		fetch('https://baseballapi.p.rapidapi.com/api/baseball/player/977489/statistics/seasons', options)
+			.then(response => response.json())
+			.then(response => console.log(response))
+			.catch(err => console.error(err));
+
+				
+			}
