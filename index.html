@@ -1,54 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>CS BASEBALL BETTING STATS</title>
-<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://www.freepik.com/free-photos-vectors/blue-red-gradient">
-<link rel="stylesheet" href="style.css">
+<title>CS BASEBALL BETTING STATS LOGIN PAGE </title>
+<link rel="stylesheet" href="style2.css">
 <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />            
-<script src="main.js"></script>            
 
 
+</head>
 
-<style>  
+<style>
+
+body {
+            text-align: center;
+        }
+
 
 </style>
-
 <body>
+<h1>CS BASEBALL BETTING STATS LOGIN PAGE</h1>
+<h2>ENTER LOGIN CREDENTIALS PLEASE</h2>
 
-    <h1>CS BASEBALL BETTING STATS</h1>
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
-<div style="background-image: url('https://www.freepik.com/free-photos-vectors/blue-red-gradient');">
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
 
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
 
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit"><a href ="index.html">Login<a href="index.html"><</span></a></button>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
 
-<div class="grid-container">
-    <button class="myButton"><i class='fa-solid fa-baseball' style='color:#2b4f97'></i>GAME1</button>
-    <button class="myButton"><i class='fa-solid fa-baseball' style='color:#2b4f97'></i>GAME2</button>
-    <button class="myButton"><i class='fa-solid fa-baseball' style='color:#2b4f97'></i>GAME3</button>
-    <button class="myButton"><i class='fa-solid fa-baseball' style='color:#2b4f97'></i>GAME4</button>
-    <button class="myButton"><i class='fa-solid fa-baseball' style='color:#2b4f97'></i>GAME5</button>
-    <button class="myButton"><i class='fa-solid fa-baseball' style='color:#2b4f97'></i>GAME6</button>
-    <button class="myButton"><i class='fa-solid fa-baseball' style='color:#2b4f97'></i>GAME7</button>
-    <button class="myButton"><i class='fa-solid fa-baseball' style='color:#2b4f97'></i>GAME8</button>
-    <button class="myButton"><i class='fa-solid fa-baseball' style='color:#2b4f97'></i>GAME9</button>
-    <button class="myButton"><i class='fa-solid fa-baseball' style='color:#2b4f97'></i>GAME10</button>
-    <button class="myButton"><i class='fa-solid fa-baseball' style='color:#2b4f97'></i>GAME11</button>
-    <button class="myButton"><i class='fa-solid fa-baseball' style='color:#2b4f97'></i>GAME12</button>
-    <button class="myButton"><i class='fa-solid fa-baseball' style='color:#2b4f97'></i>GAME13</button>
-    <button class="myButton"><i class='fa-solid fa-baseball' style='color:#2b4f97'></i>GAME14</button>
-    <button class="myButton"><i class='fa-solid fa-baseball' style='color:#2b4f97'></i>GAME15</button>
- 
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
 </div>
 
-<body>
-</head>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
 </html>
-
-
-
-
-
- 
