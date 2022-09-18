@@ -1,13 +1,6 @@
 
 
 
-	const options = {
-		method: 'GET',
-		headers: {
-			'X-RapidAPI-Key': 'e582372e1amsh61b00d4f0c7496fp13ecf4jsn15d9fbef3010',
-			'X-RapidAPI-Host': 'baseballapi.p.rapidapi.com'
-			}
-		};
 	const fetchDataBtn = document.querySelector('#fetchdata')
     const result = document.querySelector('#result')
     
