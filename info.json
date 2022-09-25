@@ -1,0 +1,270 @@
+{
+    "event": {
+      "awayScore": {
+        "current": 8,
+        "display": 8,
+        "innings": {
+          "inning1": {
+            "errors": 0,
+            "hits": 0,
+            "run": 1
+          },
+          "inning10": {
+            "errors": 0,
+            "hits": 0,
+            "run": 5
+          },
+          "inning2": {
+            "errors": 0,
+            "hits": 0,
+            "run": 0
+          },
+          "inning3": {
+            "errors": 0,
+            "hits": 0,
+            "run": 0
+          },
+          "inning4": {
+            "errors": 0,
+            "hits": 0,
+            "run": 1
+          },
+          "inning5": {
+            "errors": 0,
+            "hits": 0,
+            "run": 0
+          },
+          "inning6": {
+            "errors": 0,
+            "hits": 0,
+            "run": 0
+          },
+          "inning7": {
+            "errors": 0,
+            "hits": 0,
+            "run": 0
+          },
+          "inning8": {
+            "errors": 0,
+            "hits": 0,
+            "run": 0
+          },
+          "inning9": {
+            "errors": 0,
+            "hits": 0,
+            "run": 1
+          }
+        },
+        "inningsBaseball": {
+          "errors": 0,
+          "hits": 16
+        }
+      },
+      "awayTeam": {
+        "country": {
+          "alpha2": "US",
+          "name": "USA"
+        },
+        "gender": "M",
+        "id": 3629,
+        "name": "New York Mets",
+        "nameCode": "NYM",
+        "national": false,
+        "shortName": "Mets",
+        "slug": "new-york-mets",
+        "sport": {
+          "id": 64,
+          "name": "Baseball",
+          "slug": "baseball"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#032d75",
+          "secondary": "#032d75",
+          "text": "#032d75"
+        },
+        "type": 0,
+        "userCount": 4559
+      },
+      "changes": {
+        "changeTimestamp": 1657161002,
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ]
+      },
+      "customId": "ExbsIxb",
+      "fanRatingEvent": false,
+      "finalResultOnly": false,
+      "hasEventPlayerStatistics": true,
+      "hasGlobalHighlights": true,
+      "homeScore": {
+        "current": 3,
+        "display": 3,
+        "innings": {
+          "inning1": {
+            "errors": 0,
+            "hits": 0,
+            "run": 0
+          },
+          "inning10": {
+            "errors": 0,
+            "hits": 0,
+            "run": 0
+          },
+          "inning2": {
+            "errors": 0,
+            "hits": 0,
+            "run": 2
+          },
+          "inning3": {
+            "errors": 0,
+            "hits": 0,
+            "run": 1
+          },
+          "inning4": {
+            "errors": 0,
+            "hits": 0,
+            "run": 0
+          },
+          "inning5": {
+            "errors": 0,
+            "hits": 0,
+            "run": 0
+          },
+          "inning6": {
+            "errors": 0,
+            "hits": 0,
+            "run": 0
+          },
+          "inning7": {
+            "errors": 0,
+            "hits": 0,
+            "run": 0
+          },
+          "inning8": {
+            "errors": 0,
+            "hits": 0,
+            "run": 0
+          },
+          "inning9": {
+            "errors": 0,
+            "hits": 0,
+            "run": 0
+          }
+        },
+        "inningsBaseball": {
+          "errors": 0,
+          "hits": 5
+        }
+      },
+      "homeTeam": {
+        "country": {
+          "alpha2": "US",
+          "name": "USA"
+        },
+        "gender": "M",
+        "id": 3633,
+        "name": "Cincinnati Reds",
+        "nameCode": "CIN",
+        "national": false,
+        "shortName": "Reds",
+        "slug": "cincinnati-reds",
+        "sport": {
+          "id": 64,
+          "name": "Baseball",
+          "slug": "baseball"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#c80021",
+          "secondary": "#c80021",
+          "text": "#c80021"
+        },
+        "type": 0,
+        "userCount": 1681
+      },
+      "id": 9864379,
+      "periods": {
+        "current": "Match",
+        "extra1": "10th Inning",
+        "inning1": "1st Inning",
+        "inning2": "2nd Inning",
+        "inning3": "3rd Inning",
+        "inning4": "4th Inning",
+        "inning5": "5th Inning",
+        "inning6": "6th Inning",
+        "inning7": "7th Inning",
+        "inning8": "8th Inning",
+        "inning9": "9th Inning"
+      },
+      "season": {
+        "id": 39143,
+        "name": "2022",
+        "year": "2022"
+      },
+      "slug": "cincinnati-reds-new-york-mets",
+      "startTimestamp": 1657147200,
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "US",
+          "flag": "usa",
+          "id": 1374,
+          "name": "USA",
+          "slug": "usa",
+          "sport": {
+            "id": 64,
+            "name": "Baseball",
+            "slug": "baseball"
+          }
+        },
+        "id": 41276,
+        "name": "MLB, Regular Season",
+        "priority": 6,
+        "slug": "mlb-regular-season",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "US",
+            "flag": "usa",
+            "id": 1374,
+            "name": "USA",
+            "slug": "usa",
+            "sport": {
+              "id": 64,
+              "name": "Baseball",
+              "slug": "baseball"
+            }
+          },
+          "hasBoxScore": true,
+          "hasEventPlayerStatistics": false,
+          "hasPositionGraph": false,
+          "id": 11205,
+          "name": "MLB",
+          "slug": "mlb",
+          "userCount": 12635
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Cincinnati"
+        },
+        "country": {
+          "alpha2": "US",
+          "name": "USA"
+        },
+        "id": 8079,
+        "stadium": {
+          "capacity": 42319,
+          "name": "Great American Ball Park"
+        }
+      },
+      "winnerCode": 2
+    }
+  }

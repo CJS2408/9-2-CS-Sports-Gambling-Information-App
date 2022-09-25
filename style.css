@@ -38,6 +38,10 @@
     align-items: center;
 }
 
+ol {
+  display: grid;
+}
+
  
     .myButton:hover {
     background: #2b4f97; }
